@@ -235,6 +235,11 @@
   __tracepoint_fsalmem___mem_write;
   __tracepoint_fsalmem___mem_close;
   __tracepoint_fsalmem___mem_create_handle;
+  fsal_print_acl_int;
+  fsal_acl_to_mode;
+  nfs4_ace_free;
+  fsal_inherit_acls;
+  fsal_mode_to_acl;
 local:
   *;
 };
