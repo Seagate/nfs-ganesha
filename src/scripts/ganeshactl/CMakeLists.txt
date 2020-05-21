@@ -1,6 +1,7 @@
 # Building and packaging DBUS scripts for ganesha
 
-find_program(PYTHON NAMES "python3" "python")
+#forcing to find python2. Need to revert back while using RHEL8
+find_program(PYTHON NAMES "python2" "python")
 
 # PyQT based class modules
 set(GANESHA_BASE_SRCS
